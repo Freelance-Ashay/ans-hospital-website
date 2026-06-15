@@ -1,0 +1,99 @@
+Design and build a modern, responsive multi-page website for ANS Hospital (ANS Multi-Speciality Centre), a leading multi-specialty hospital in Patna, Bihar.
+
+BRAND IDENTITY & TONE
+- Name: ANS Hospital
+- Tagline: "Premier Multi-Specialty Healthcare in Patna"
+- Sub-message: "Empowering Health, Enriching Lives: Your Trusted Partner in Exceptional Care"
+- Known for: Best ICU care in Patna, and an unparalleled Painless Delivery Facility
+- Tone: trustworthy, calm, modern, patient-first — avoid cold/sterile or generic "blue gradient medical" templates
+
+COLOR PALETTE
+- Deep navy #0B1E3C (header, hero, footer)
+- Warm ivory #F7F5EF (main section backgrounds)
+- Muted gold #C9A227 (accents, CTAs, highlights, dividers — matches logo)
+- Teal-slate #1F4E5F (secondary accent for services/department cards)
+- Charcoal #2C2C2C (body text)
+- Soft sand #E8DCC4 (card backgrounds on ivory sections)
+
+TYPOGRAPHY
+- Display/headings: Fraunces or Source Serif 4
+- Body text: Inter or IBM Plex Sans
+- Contact info / addresses / phone numbers / hours: IBM Plex Mono
+
+PAGE STRUCTURE
+
+1. Header (sticky)
+- Logo left, nav center (Home, About, Departments, Services, Doctors, Testimonials, Contact)
+- Emergency phone numbers visible on right: +91-9905843524, +91-7857811565, +91-9234636183
+
+2. Hero section
+- Headline "ANS Hospital" + tagline "Premier Multi-Specialty Healthcare in Patna"
+- Subline: "Empowering Health, Enriching Lives: Your Trusted Partner in Exceptional Care"
+- Real OT photo from hospital's social media/branding
+- Primary CTA: "Book Appointment" | Secondary CTA: "Call Now"
+
+3. About section (ivory background)
+- Short intro: "Welcome to ANS Multi-Speciality Centre, a leading multi-speciality hospital in Patna, Bihar, renowned for its exceptional team of urologists, gynaecologists, neurologists and surgeons."
+- 3 trust pillars as cards: "High Quality Clinic", "Unmatched Expertise", "Precise Results", "Qualified Staff" (4 cards, 2x2 on mobile)
+
+4. Departments section
+- Directory-style grid of 10 departments: Internal Medicine, Pediatrics, Surgery, Gynecology, Orthopedics, Cardiology, Neurology, Ophthalmology, Dermatology, ENT
+- Each card: icon + department name + 1-line description
+- 2 columns mobile, 3-4 columns desktop
+
+5. Services & Facilities section (teal-slate accent)
+- Round-the-clock services grid:
+  - 24/7 Emergency Care (cardiac distress, trauma, respiratory, urgent conditions)
+  - Operation Theater (state-of-the-art, patient-centered surgical care)
+  - ICU, NICU & PICU (modern equipment, highly qualified critical care staff)
+  - General Ward (comfortable accommodation, round-the-clock monitoring)
+  - OPD & IPD Care (personalized, all-inclusive treatment)
+  - 24/7 Pharmacy (wide range of medications, prompt prescriptions)
+  - Ambulance Services
+  - Dialysis
+  - Diagnostics & Imaging
+  - Physiotherapy & Rehab
+  - Painless Delivery Facility (highlight as a signature/featured service)
+  - Health Check-up Plans
+
+6. Doctors / Team section
+- Circular photo treatment for doctor team photos
+- Sample doctor: Dr. Saurav, Dr. Nishant Verma (mentioned in reviews) — placeholder cards for specialists in Gynecology, Cardiology, Orthopaedics, Pediatrics, Neurology, General Surgery
+
+7. Testimonials section
+- Rating display: aggregate from 1860 / 1630 / 2100 reviews across platforms (5-star average)
+- 2-3 real-style patient quotes:
+  - "Well qualified, experienced team of doctors. Patient care is top priority. Helpful and accommodating staff."
+  - "Very good condition of hospital with great care of patients."
+  - "Great multispeciality hospital with a pocket-friendly range, and a family environment."
+
+8. Latest news / case studies section
+- Brief callout on COVID-19 era care commitment, framed as "Our Track Record" or "Community Care"
+
+9. Location & Contact section
+- Address: Shree Hanuman Dham, Above Canara Bank, Ashiana Digha Road, Patna - 800025
+- Embedded Google Map
+- Phone (mono font): +91-9905843524, +91-7857811565, +91-9234636183
+- Email: info@anshospital.in, anshospital@gmail.com
+- Contact/appointment form: Name, Phone, Department, Preferred Date, Message
+
+10. Footer (navy)
+- Quick links, department list, services list, social icons (Instagram @anshospital27, Facebook)
+- Website: www.anshospital.in
+
+SIGNATURE ELEMENT
+- Persistent "24/7 Emergency" strip (gold on navy), pulsing dot animation, tap-to-call on mobile, fixed/sticky placement
+- "Painless Delivery Facility" gets a distinct featured callout/badge wherever services are listed, since it's a key differentiator
+
+INTERACTIONS & MOTION
+- Smooth scroll-triggered fade-in/slide-up for sections
+- Hover lift + gold/teal border highlight on cards
+- Smooth anchor-link scrolling
+- Mobile hamburger menu
+
+TECHNICAL REQUIREMENTS
+- Fully responsive, mobile-first
+- Semantic HTML5, accessible (alt text, ARIA labels, keyboard nav, visible focus states)
+- Click-to-call (tel:) and click-to-email (mailto:) links throughout
+- Floating WhatsApp chat button
+- SEO meta tags + structured data (MedicalOrganization schema) including address, phone, departments, and services
